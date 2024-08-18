@@ -1,0 +1,10 @@
+@ObjectModel.leadingEntity.name: 'ZFE_C_TravelTP_001463'
+define service ZFE_UI_Travel_001463 {
+  expose ZFE_C_TRAVELTP_001463 as Travel;
+  expose ZFE_C_BOOKINGTP_001463 as Booking;
+  expose ZI_FE_CONN_001463 as Connection;
+  expose ZI_FE_FLIG_001463 as Flight;
+  expose ZI_FE_CARR_001463 as Airline;
+  expose I_CURRENCY as Currency;
+  expose /DMO/I_CUSTOMER as Customer;
+}
